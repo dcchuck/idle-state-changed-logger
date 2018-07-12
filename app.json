@@ -3,7 +3,7 @@
     "startup_app": {
         "name": "OpenfinPOC",
         "description": "OpenFin POC",
-        "url": "https://dcchuck.github.io/idle-state-changed-logger/app.json",
+        "url": "https://dcchuck.github.io/idle-state-changed-logger/",
         "uuid": "OpenfinPOC-ai7ywlkpxlw",
         "autoShow": true
     },

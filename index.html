@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>OpenFin</title>
+</head>
+
+<body>
+    <h1>Idle State Changed Events</h1>
+    <ul id="state-list"></ul>
+    <script>
+        const stateList = document.getElementById('state-list');
+
+        if (typeof fin !== 'undefined') {
+            fin.desktop.System.addEventListener('idle-state-changed', (e) => {
+                console.log('Idle State Changed!');
+                const stateString = JSON.stringify(e);
+                const newListItem = document.createElement('li');
+                newListItem.innerText = `Event: ${stateString} || Timestamps: ${Date.now().toString()}`;
+                stateList.appendChild(newListItem);
+            });
+        }
+    </script>
+</body>
+
+</html>

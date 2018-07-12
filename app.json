@@ -1,0 +1,19 @@
+{
+    "devtools_port": 9090,
+    "startup_app": {
+        "name": "OpenfinPOC",
+        "description": "OpenFin POC",
+        "url": "https://dcchuck.github.io/idle-state-changed-logger/app.json",
+        "uuid": "OpenfinPOC-ai7ywlkpxlw",
+        "autoShow": true
+    },
+    "runtime": {
+        "arguments": "",
+        "version": "beta"
+    },
+    "shortcut": {
+        "company": "OpenFin",
+        "description": "Idle State Changed Listener",
+        "name": "Idle State Changed"
+    }
+}
